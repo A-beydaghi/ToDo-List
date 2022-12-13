@@ -1,26 +1,35 @@
-body{
+body {
 	width: 100%;
-	background-image:url(media/t1.jpg) ;
+	background-image: url(media/google.png);
 	background-attachment: fixed;
 	background-size: 50% 100%;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
+
 h1 {
-	background-color: #cd2948;
 	color: #fff;
 	border-radius: 10px;
 	width: 111px;
 }
+
 .btn:active {
 	font-size: 10px;
 }
-li > img:hover{
+
+li>img:hover {
 	cursor: pointer;
-} 
+}
+
+li>span {
+	cursor: pointer;
+}
+
 li {
 	margin: 1px;
 	border-radius: 5px;
 }
+
 input {
 	width: 100%;
 	border-radius: 5px;
